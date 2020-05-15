@@ -1,2 +1,10 @@
 # rasum
-Utility to generate cheevos checksums for use with RetroAchievements.org
+
+Utility to calculate RetroAchievemes aka "cheevos" checksum. Rrelies heavily on the methods used by https://github.com/libretro/RetroArch/blob/master/cheevos.c
+
+Compile like so:
+
+```
+gcc -lcrypto -lssl -o rasum rasum.c
+```
+
