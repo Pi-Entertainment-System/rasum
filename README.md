@@ -7,5 +7,7 @@ Uses the RetroAchievements library: https://github.com/RetroAchievements/rcheevo
 Compile like so:
 
 ```
+git submodule init
+git submodule update
 make
 ```
